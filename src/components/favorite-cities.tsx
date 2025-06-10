@@ -3,7 +3,7 @@ import { useWeatherQuery } from "@/hooks/use-weather";
 import { ScrollArea } from "@radix-ui/react-scroll-area";
 import { useNavigate } from "react-router-dom";
 import { Button } from "./ui/button";
-import { Ghost, Loader2, X } from "lucide-react";
+import {  Loader2, X } from "lucide-react"; //Ghost
 import { toast } from "sonner";
 interface FavoriteCityTabletProps {
   id: string;
